@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Investment & FIRE Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+A comprehensive financial calculator for compound interest projections and FIRE (Financial Independence, Retire Early) planning.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Compound Interest Calculator**:
+  - Calculate investment growth with regular contributions
+  - Adjust for inflation
+  - View detailed yearly projections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **FIRE Calculator**:
+  - Determine your FIRE number
+  - Calculate years to financial independence
+  - Analyze withdrawal strategies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Additional Features**:
+  - Multi-language support (English, Chinese, Japanese)
+  - Currency customization
+  - Save and export calculations
+  - Generate PDF reports
+  - Interactive charts and visualizations
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+2. Install dependencies:
+```bash
+cd investment-fire-calculator
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Compound Interest Calculator**:
+   - Enter initial investment amount
+   - Set monthly contributions
+   - Adjust expected return rate and time horizon
+   - View projected growth chart
 
-### `npm run eject`
+2. **FIRE Calculator**:
+   - Input your current financial situation
+   - Set your target withdrawal rate
+   - See your FIRE number and projected timeline
+   - Analyze different withdrawal strategies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This app can be deployed to various platforms:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Vercel](https://vercel.com)
+- [Netlify](https://www.netlify.com)
+- [Firebase Hosting](https://firebase.google.com/products/hosting)
+- [Heroku](https://www.heroku.com)
+- [GitHub Pages](https://pages.github.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To create a production build:
+```bash
+npm run build
+```
 
-## Learn More
+## Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Frontend:
+  - React
+  - Material-UI
+  - ECharts for visualizations
+  - i18n for internationalization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Tools:
+  - Create React App
+  - jsPDF for PDF generation
+  - html2canvas for PDF rendering
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Please open an issue or submit a pull request.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
